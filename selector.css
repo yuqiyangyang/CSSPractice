@@ -1,0 +1,44 @@
+/*Element*/
+li{
+}
+/*class*/
+.hello{
+}
+/*id*/
+#name{
+}
+
+/*Star * means select everything on the page*/
+*{
+	border: 1px solid lightgrey;
+}
+
+/*Decendant selector which we use all the time*/
+li a{
+	color:pink; /*means all the anchor tag inside li*/
+}
+
+/*Adjacent selector selects the sibling elements*/
+h4+ul{
+	border: 4px solid red;
+}
+
+/*Attribute selector is select one type of attributes like checkbox etc*/
+a[href ="http://www.google.com"]{
+	background: yellow;
+}
+
+input[type="checkbox"]{
+	background: red;
+}
+
+/*nth of type*/
+li: nth-of-type(3){
+	background: purple;
+}
+
+
+
+
+
+
