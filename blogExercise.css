@@ -1,0 +1,45 @@
+body{
+	border:20px solid #bdc3c7;
+	font-family: source sans pro;
+	margin: 20px auto ;
+	padding:20px;
+	max-width: 700px;
+	width:80%;
+}
+
+.post{
+	margin-bottom: 20px;
+}
+.quote{
+ border-left:5px solid #bdc3c7;
+ padding-left: 5px;
+}
+
+.date{
+	color:#3498bd;
+	text-transform: uppercase;
+	padding:5px;
+	letter-spacing: .2rem; /*rem means*/
+}
+
+/*.bottom{
+	border-bottom: 2px solid #bdc3c7;
+	padding-bottom: 20px;
+
+}*/
+
+ /*can replace .bottom..google hr style*/
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+h2{
+	font-weight: bold;
+	font-size: 2.0rem;
+	color:#2c3e50;
+	text-transform: capitalize;
+	padding:5px;
+}
